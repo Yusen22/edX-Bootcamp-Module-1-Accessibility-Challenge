@@ -73,7 +73,7 @@ main section {
 /* Summed individual selectors to above selector form */
 
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -90,21 +90,21 @@ main section {
 }
 
 
-.content img {
+main img {
     max-height: 200px;
 }
 
 /* Summed multiple class selectors to '.content img' here */
 
 
-.content h2 {
+main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Summed multiple class selectors to '.content h2' here */
+/* Summed multiple .content class selectors to 'main' here */
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
